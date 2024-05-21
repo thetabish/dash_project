@@ -1,0 +1,481 @@
+month,region,property_type,avg_price,volume
+1,East England,D,386000,391
+1,East England,F,146000,70
+1,East England,S,244000,283
+1,East England,T,205000,219
+1,East Midlands,D,367000,1378
+1,East Midlands,F,143000,401
+1,East Midlands,S,211000,1872
+1,East Midlands,T,158000,1560
+1,East of England,D,612000,1370
+1,East of England,F,216000,826
+1,East of England,S,400000,1370
+1,East of England,T,330000,1323
+1,Greater London,D,1371000,590
+1,Greater London,F,545000,3599
+1,Greater London,S,810000,1244
+1,Greater London,T,728000,2003
+1,North East,D,380000,1046
+1,North East,F,133000,630
+1,North East,S,204000,1832
+1,North East,T,152000,1972
+1,North West,D,431000,1485
+1,North West,F,151000,983
+1,North West,S,227000,2681
+1,North West,T,155000,3280
+1,South East,D,746000,1935
+1,South East,F,238000,1748
+1,South East,S,420000,1903
+1,South East,T,353000,1974
+1,South West,D,568000,1614
+1,South West,F,215000,1116
+1,South West,S,348000,1374
+1,South West,T,299000,1653
+1,Wales,D,383000,745
+1,Wales,F,162000,261
+1,Wales,S,224000,743
+1,Wales,T,168000,1040
+1,West Midlands,D,460000,1085
+1,West Midlands,F,157000,663
+1,West Midlands,S,255000,1798
+1,West Midlands,T,205000,1666
+2,East England,D,380000,366
+2,East England,F,147000,86
+2,East England,S,250000,275
+2,East England,T,220000,221
+2,East Midlands,D,360000,1432
+2,East Midlands,F,137000,401
+2,East Midlands,S,208000,1919
+2,East Midlands,T,161000,1527
+2,East of England,D,596000,1212
+2,East of England,F,216000,811
+2,East of England,S,383000,1313
+2,East of England,T,326000,1167
+2,Greater London,D,1210000,509
+2,Greater London,F,518000,3450
+2,Greater London,S,744000,1193
+2,Greater London,T,712000,1882
+2,North East,D,385000,999
+2,North East,F,139000,616
+2,North East,S,204000,1756
+2,North East,T,149000,1950
+2,North West,D,410000,1409
+2,North West,F,147000,964
+2,North West,S,228000,2766
+2,North West,T,157000,3287
+2,South East,D,692000,1788
+2,South East,F,232000,1824
+2,South East,S,421000,1801
+2,South East,T,352000,1997
+2,South West,D,564000,1484
+2,South West,F,213000,1208
+2,South West,S,342000,1341
+2,South West,T,292000,1674
+2,Wales,D,375000,722
+2,Wales,F,140000,325
+2,Wales,S,226000,780
+2,Wales,T,169000,1070
+2,West Midlands,D,454000,1238
+2,West Midlands,F,148000,703
+2,West Midlands,S,253000,1784
+2,West Midlands,T,205000,1653
+3,East England,D,350000,401
+3,East England,F,149000,101
+3,East England,S,247000,328
+3,East England,T,208000,280
+3,East Midlands,D,365000,1622
+3,East Midlands,F,147000,530
+3,East Midlands,S,208000,2198
+3,East Midlands,T,153000,1850
+3,East of England,D,583000,1395
+3,East of England,F,211000,974
+3,East of England,S,381000,1426
+3,East of England,T,316000,1357
+3,Greater London,D,1189000,624
+3,Greater London,F,556000,3962
+3,Greater London,S,703000,1332
+3,Greater London,T,742000,2198
+3,North East,D,377000,1124
+3,North East,F,132000,757
+3,North East,S,198000,1947
+3,North East,T,148000,2400
+3,North West,D,413000,1726
+3,North West,F,150000,1178
+3,North West,S,229000,2957
+3,North West,T,154000,3833
+3,South East,D,706000,2146
+3,South East,F,230000,1996
+3,South East,S,417000,2119
+3,South East,T,350000,2177
+3,South West,D,556000,1822
+3,South West,F,212000,1320
+3,South West,S,337000,1521
+3,South West,T,288000,1857
+3,Wales,D,362000,879
+3,Wales,F,152000,320
+3,Wales,S,221000,961
+3,Wales,T,163000,1306
+3,West Midlands,D,426000,1415
+3,West Midlands,F,149000,834
+3,West Midlands,S,245000,2142
+3,West Midlands,T,198000,1982
+4,East England,D,358000,308
+4,East England,F,145000,63
+4,East England,S,236000,197
+4,East England,T,210000,168
+4,East Midlands,D,364000,1151
+4,East Midlands,F,149000,349
+4,East Midlands,S,206000,1636
+4,East Midlands,T,156000,1271
+4,East of England,D,584000,1103
+4,East of England,F,221000,659
+4,East of England,S,380000,1066
+4,East of England,T,310000,1027
+4,Greater London,D,1220000,444
+4,Greater London,F,567000,2533
+4,Greater London,S,759000,992
+4,Greater London,T,714000,1654
+4,North East,D,382000,898
+4,North East,F,138000,557
+4,North East,S,209000,1432
+4,North East,T,144000,1735
+4,North West,D,426000,1192
+4,North West,F,151000,770
+4,North West,S,229000,2211
+4,North West,T,154000,2849
+4,South East,D,743000,1514
+4,South East,F,235000,1336
+4,South East,S,417000,1543
+4,South East,T,343000,1689
+4,South West,D,546000,1274
+4,South West,F,216000,890
+4,South West,S,335000,1105
+4,South West,T,293000,1395
+4,Wales,D,360000,592
+4,Wales,F,143000,232
+4,Wales,S,212000,759
+4,Wales,T,166000,861
+4,West Midlands,D,448000,1025
+4,West Midlands,F,149000,542
+4,West Midlands,S,242000,1496
+4,West Midlands,T,200000,1439
+5,East England,D,381000,309
+5,East England,F,127000,59
+5,East England,S,240000,251
+5,East England,T,204000,191
+5,East Midlands,D,356000,1290
+5,East Midlands,F,144000,361
+5,East Midlands,S,207000,1766
+5,East Midlands,T,155000,1403
+5,East of England,D,584000,1126
+5,East of England,F,221000,686
+5,East of England,S,385000,1162
+5,East of England,T,317000,1141
+5,Greater London,D,1190000,492
+5,Greater London,F,576000,2789
+5,Greater London,S,718000,1080
+5,Greater London,T,742000,1812
+5,North East,D,380000,822
+5,North East,F,139000,572
+5,North East,S,197000,1637
+5,North East,T,147000,1870
+5,North West,D,419000,1256
+5,North West,F,151000,892
+5,North West,S,228000,2473
+5,North West,T,151000,2964
+5,South East,D,682000,1679
+5,South East,F,239000,1393
+5,South East,S,416000,1648
+5,South East,T,345000,1794
+5,South West,D,554000,1310
+5,South West,F,231000,976
+5,South West,S,324000,1228
+5,South West,T,285000,1527
+5,Wales,D,350000,614
+5,Wales,F,154000,218
+5,Wales,S,216000,820
+5,Wales,T,168000,987
+5,West Midlands,D,450000,1116
+5,West Midlands,F,152000,577
+5,West Midlands,S,249000,1757
+5,West Midlands,T,198000,1571
+6,East England,D,358000,382
+6,East England,F,140000,72
+6,East England,S,247000,276
+6,East England,T,207000,230
+6,East Midlands,D,368000,1561
+6,East Midlands,F,148000,413
+6,East Midlands,S,207000,2084
+6,East Midlands,T,163000,1687
+6,East of England,D,603000,1392
+6,East of England,F,217000,838
+6,East of England,S,379000,1421
+6,East of England,T,324000,1385
+6,Greater London,D,1485000,653
+6,Greater London,F,575000,3435
+6,Greater London,S,789000,1332
+6,Greater London,T,779000,2281
+6,North East,D,362000,1219
+6,North East,F,135000,696
+6,North East,S,203000,2147
+6,North East,T,151000,2380
+6,North West,D,410000,1600
+6,North West,F,155000,1006
+6,North West,S,228000,2993
+6,North West,T,157000,3527
+6,South East,D,687000,2100
+6,South East,F,238000,1578
+6,South East,S,414000,2085
+6,South East,T,343000,2148
+6,South West,D,535000,1835
+6,South West,F,218000,1089
+6,South West,S,330000,1543
+6,South West,T,288000,1868
+6,Wales,D,360000,852
+6,Wales,F,154000,287
+6,Wales,S,222000,974
+6,Wales,T,165000,1198
+6,West Midlands,D,455000,1406
+6,West Midlands,F,150000,659
+6,West Midlands,S,254000,2013
+6,West Midlands,T,201000,1856
+7,East England,D,371000,371
+7,East England,F,141000,63
+7,East England,S,241000,270
+7,East England,T,210000,164
+7,East Midlands,D,361000,1464
+7,East Midlands,F,141000,326
+7,East Midlands,S,213000,1946
+7,East Midlands,T,167000,1633
+7,East of England,D,592000,1335
+7,East of England,F,222000,778
+7,East of England,S,393000,1416
+7,East of England,T,319000,1301
+7,Greater London,D,1192000,576
+7,Greater London,F,557000,3379
+7,Greater London,S,733000,1444
+7,Greater London,T,784000,2337
+7,North East,D,398000,1161
+7,North East,F,139000,587
+7,North East,S,212000,1949
+7,North East,T,152000,2141
+7,North West,D,423000,1497
+7,North West,F,150000,961
+7,North West,S,239000,2906
+7,North West,T,157000,3348
+7,South East,D,737000,2045
+7,South East,F,235000,1574
+7,South East,S,422000,2053
+7,South East,T,352000,2104
+7,South West,D,540000,1751
+7,South West,F,222000,1018
+7,South West,S,335000,1466
+7,South West,T,296000,1894
+7,Wales,D,370000,749
+7,Wales,F,150000,254
+7,Wales,S,220000,891
+7,Wales,T,173000,1144
+7,West Midlands,D,450000,1276
+7,West Midlands,F,153000,599
+7,West Midlands,S,252000,1890
+7,West Midlands,T,208000,1658
+8,East England,D,371000,447
+8,East England,F,140000,65
+8,East England,S,243000,279
+8,East England,T,216000,210
+8,East Midlands,D,382000,1624
+8,East Midlands,F,139000,417
+8,East Midlands,S,213000,2159
+8,East Midlands,T,165000,1611
+8,East of England,D,595000,1519
+8,East of England,F,222000,782
+8,East of England,S,396000,1527
+8,East of England,T,321000,1399
+8,Greater London,D,1181000,685
+8,Greater London,F,523000,3747
+8,Greater London,S,783000,1566
+8,Greater London,T,760000,2594
+8,North East,D,397000,1283
+8,North East,F,144000,645
+8,North East,S,219000,2052
+8,North East,T,164000,2124
+8,North West,D,420000,1520
+8,North West,F,156000,1034
+8,North West,S,243000,3092
+8,North West,T,161000,3471
+8,South East,D,728000,2353
+8,South East,F,238000,1736
+8,South East,S,430000,2285
+8,South East,T,351000,2295
+8,South West,D,570000,2048
+8,South West,F,226000,1165
+8,South West,S,347000,1712
+8,South West,T,297000,1986
+8,Wales,D,368000,830
+8,Wales,F,146000,237
+8,Wales,S,226000,970
+8,Wales,T,170000,1227
+8,West Midlands,D,466000,1417
+8,West Midlands,F,149000,658
+8,West Midlands,S,256000,2153
+8,West Midlands,T,208000,1751
+9,East England,D,367000,394
+9,East England,F,146000,78
+9,East England,S,248000,265
+9,East England,T,201000,195
+9,East Midlands,D,370000,1519
+9,East Midlands,F,146000,350
+9,East Midlands,S,209000,1861
+9,East Midlands,T,164000,1469
+9,East of England,D,585000,1540
+9,East of England,F,223000,746
+9,East of England,S,388000,1417
+9,East of England,T,325000,1333
+9,Greater London,D,1255000,614
+9,Greater London,F,540000,3668
+9,Greater London,S,742000,1395
+9,Greater London,T,779000,2407
+9,North East,D,386000,1135
+9,North East,F,135000,598
+9,North East,S,210000,1948
+9,North East,T,155000,2084
+9,North West,D,417000,1502
+9,North West,F,154000,1034
+9,North West,S,234000,2986
+9,North West,T,159000,3385
+9,South East,D,709000,2087
+9,South East,F,239000,1678
+9,South East,S,417000,2102
+9,South East,T,348000,2060
+9,South West,D,579000,1901
+9,South West,F,216000,1066
+9,South West,S,346000,1693
+9,South West,T,297000,1985
+9,Wales,D,372000,841
+9,Wales,F,144000,287
+9,Wales,S,228000,923
+9,Wales,T,175000,1208
+9,West Midlands,D,448000,1287
+9,West Midlands,F,150000,647
+9,West Midlands,S,258000,1913
+9,West Midlands,T,208000,1609
+10,East England,D,362000,387
+10,East England,F,136000,74
+10,East England,S,243000,271
+10,East England,T,213000,214
+10,East Midlands,D,370000,1470
+10,East Midlands,F,142000,389
+10,East Midlands,S,211000,1902
+10,East Midlands,T,164000,1432
+10,East of England,D,579000,1381
+10,East of England,F,223000,807
+10,East of England,S,399000,1314
+10,East of England,T,324000,1252
+10,Greater London,D,1191000,514
+10,Greater London,F,520000,3356
+10,Greater London,S,713000,1329
+10,Greater London,T,709000,2055
+10,North East,D,381000,1063
+10,North East,F,137000,617
+10,North East,S,212000,1871
+10,North East,T,153000,2075
+10,North West,D,421000,1459
+10,North West,F,155000,1081
+10,North West,S,238000,2806
+10,North West,T,162000,3344
+10,South East,D,699000,2041
+10,South East,F,233000,1599
+10,South East,S,426000,2066
+10,South East,T,345000,2096
+10,South West,D,544000,1818
+10,South West,F,220000,1105
+10,South West,S,341000,1540
+10,South West,T,296000,1775
+10,Wales,D,365000,790
+10,Wales,F,153000,278
+10,Wales,S,224000,912
+10,Wales,T,166000,1135
+10,West Midlands,D,445000,1284
+10,West Midlands,F,156000,602
+10,West Midlands,S,254000,1933
+10,West Midlands,T,200000,1656
+11,East England,D,368000,340
+11,East England,F,146000,68
+11,East England,S,238000,221
+11,East England,T,205000,189
+11,East Midlands,D,366000,1288
+11,East Midlands,F,135000,321
+11,East Midlands,S,209000,1615
+11,East Midlands,T,157000,1422
+11,East of England,D,594000,1332
+11,East of England,F,215000,687
+11,East of England,S,388000,1201
+11,East of England,T,321000,1119
+11,Greater London,D,1244000,490
+11,Greater London,F,486000,2966
+11,Greater London,S,700000,1047
+11,Greater London,T,721000,1733
+11,North East,D,392000,939
+11,North East,F,131000,596
+11,North East,S,210000,1714
+11,North East,T,150000,1790
+11,North West,D,424000,1214
+11,North West,F,156000,881
+11,North West,S,230000,2451
+11,North West,T,156000,2915
+11,South East,D,690000,1842
+11,South East,F,233000,1451
+11,South East,S,411000,1769
+11,South East,T,333000,1807
+11,South West,D,551000,1619
+11,South West,F,226000,999
+11,South West,S,339000,1284
+11,South West,T,291000,1613
+11,Wales,D,357000,738
+11,Wales,F,153000,231
+11,Wales,S,225000,805
+11,Wales,T,168000,923
+11,West Midlands,D,445000,1115
+11,West Midlands,F,139000,576
+11,West Midlands,S,252000,1618
+11,West Midlands,T,206000,1481
+12,East England,D,367000,223
+12,East England,F,116000,32
+12,East England,S,227000,145
+12,East England,T,194000,113
+12,East Midlands,D,352000,796
+12,East Midlands,F,133000,223
+12,East Midlands,S,208000,1013
+12,East Midlands,T,160000,808
+12,East of England,D,532000,757
+12,East of England,F,213000,491
+12,East of England,S,375000,727
+12,East of England,T,306000,693
+12,Greater London,D,1156000,263
+12,Greater London,F,533000,1812
+12,Greater London,S,669000,641
+12,Greater London,T,725000,1031
+12,North East,D,378000,616
+12,North East,F,141000,389
+12,North East,S,206000,1071
+12,North East,T,157000,1145
+12,North West,D,396000,812
+12,North West,F,157000,630
+12,North West,S,235000,1555
+12,North West,T,158000,1751
+12,South East,D,665000,1040
+12,South East,F,221000,973
+12,South East,S,415000,1108
+12,South East,T,338000,1126
+12,South West,D,527000,994
+12,South West,F,206000,663
+12,South West,S,321000,817
+12,South West,T,283000,1041
+12,Wales,D,364000,500
+12,Wales,F,159000,158
+12,Wales,S,223000,528
+12,Wales,T,161000,624
+12,West Midlands,D,426000,664
+12,West Midlands,F,144000,369
+12,West Midlands,S,253000,1034
+12,West Midlands,T,202000,902
