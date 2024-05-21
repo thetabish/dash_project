@@ -23,6 +23,8 @@ app.layout = html.Div([
     dash.page_container,
 ])
 
+server = app.server
+
 # Run the dash app
 if __name__ == '__main__':
     app.run_server(debug=False)
