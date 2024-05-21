@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: dash-analytics-portfolio
+    plan: free
+    runtime: python
+    region: frankfurt  # You can change this to your preferred region
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
+    envVars:
+      - key: PORT
+        value: 8000  # Render automatically sets the PORT environment variable
