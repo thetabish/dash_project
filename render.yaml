@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: dash-analytics-portfolio
+    name: dash-analytics-property-prices
     plan: free
     runtime: python
     region: frankfurt  # You can change this to your preferred region
