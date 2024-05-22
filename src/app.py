@@ -18,14 +18,26 @@ navbar = dbc.NavbarSimple(
     dark=True,
 )
 
+footer = dbc.Container(
+    dbc.Row(
+        [
+            dbc.Col(html.A("Meeran Muhammad Tabish | GitHub", href="https://github.com/thetabish/dash_project"), align="right"),
+            dbc.Col(html.P("Please wait for the graphs to show up, it could take a few minutes."), align="left")
+        ],
+    ),
+    className="footer",
+    fluid=True,
+)
+
 # Overall layout
 app.layout = html.Div([
     navbar,  # Include the navigation bar
     dash.page_container,
+    footer
 ])
 
 server = app.server
 
 # Run the dash app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
