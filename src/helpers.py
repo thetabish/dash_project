@@ -9,20 +9,28 @@ import calendar
 from config import app_config
 import plotly.graph_objs as go
 import json
-
+import os
 # Define the GeoJSON data globally
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+
+
 geojson_data = None
 current_selected_region = None
 
 
 
 def avg_prices_map_fig(selected_region, selected_month):
-    csv_file_path = f'processed_data/average_price_by_month/region_data_{selected_month}.csv'
+    csv_file_path = os.path.join(BASE_DIR, f'processed_data/average_price_by_month/region_data_{selected_month}.csv')
     data = pd.read_csv(csv_file_path)
+    if not os.path.exists(csv_file_path):
+        print(f"File not found: {csv_file_path}")
+        return None
 
     data = data[data['region'] ==selected_region]
 
-    region_geojson_path = f'geo_json/regions/{selected_region}_postcode_sectors.geojson'
+    region_geojson_path = os.path.join(BASE_DIR,f'geo_json/regions/{selected_region}_postcode_sectors.geojson')
     region_geojson = gpd.read_file(region_geojson_path)
     key_min = np.percentile(data.avg_price, 5)
     key_max = np.percentile(data.avg_price, 95)
@@ -59,7 +67,7 @@ def avg_prices_map_fig(selected_region, selected_month):
 
 def update_bar_plot(selected_region,selected_month):
     # Load the preprocessed CSV containing average prices and volumes
-    csv_file_path = 'processed_data/region_avg_price/region_avg_prices.csv'
+    csv_file_path = os.path.join(BASE_DIR,'processed_data/region_avg_price/region_avg_prices.csv')
     data = pd.read_csv(csv_file_path)
 
     # Filter the data for the selected region
@@ -107,7 +115,7 @@ def read_geojson(selected_region):
     global current_selected_region
 
     if current_selected_region != selected_region or geojson_data is None:
-        geojson_file_path = f'geo_json/regions/{selected_region}_postcode_sectors.geojson'
+        geojson_file_path = os.path.join(BASE_DIR,f'geo_json/regions/{selected_region}_postcode_sectors.geojson')
         with open(geojson_file_path, 'r') as geojson_file:
             geojson_data = json.load(geojson_file)
         current_selected_region = selected_region
@@ -116,7 +124,7 @@ def read_geojson(selected_region):
 
 def update_volume_plot(selected_year, selected_region):
     # Load data
-    csv_file_path = f'processed_data/volume_by_year/region_total_volume_{selected_year}.csv'
+    csv_file_path = os.path.join(BASE_DIR,f'processed_data/volume_by_year/region_total_volume_{selected_year}.csv')
     data = pd.read_csv(csv_file_path)
 
     fig = px.line(data,
@@ -139,7 +147,7 @@ def update_volume_plot(selected_year, selected_region):
 
 def update_volume_map(selected_year, selected_region):
     # Load the CSV file based on the selected year
-    csv_file_path = f'processed_data/average_price_by_year/region_data_{selected_year}.csv'
+    csv_file_path = os.path.join(BASE_DIR,f'processed_data/average_price_by_year/region_data_{selected_year}.csv')
     data = pd.read_csv(csv_file_path)
 
     # Filter the data to the selected region
