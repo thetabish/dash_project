@@ -3,7 +3,7 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 # Create the dash app
-app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SLATE, '/assets/custom.css'])
+app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SLATE, '//assets/custom.css'])
 
 # Define the navigation bar
 navbar = dbc.NavbarSimple(
@@ -27,4 +27,4 @@ server = app.server
 
 # Run the dash app
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=False, host='0.0.0.0')
